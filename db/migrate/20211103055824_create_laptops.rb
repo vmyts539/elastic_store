@@ -5,13 +5,13 @@ class CreateLaptops < ActiveRecord::Migration[6.1]
 
       t.string :screen_resolution
       t.string :screen_cover_type
-      t.string :scree_matrix_type
+      t.string :screen_matrix_type
       t.float :screen_size
-      t.string :screen_refresh_rate
+      t.integer :screen_refresh_rate
 
       t.string :proccessor_name
       t.string :proccessor_serial
-      t.string :proccessor_speed
+      t.float :proccessor_speed
 
       t.integer :ram_capacity
       t.string :disk_type

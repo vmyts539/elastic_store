@@ -11,11 +11,11 @@
 #  price                  :float
 #  proccessor_name        :string
 #  proccessor_serial      :string
-#  proccessor_speed       :string
+#  proccessor_speed       :float
 #  ram_capacity           :integer
-#  scree_matrix_type      :string
 #  screen_cover_type      :string
-#  screen_refresh_rate    :string
+#  screen_matrix_type     :string
+#  screen_refresh_rate    :integer
 #  screen_resolution      :string
 #  screen_size            :float
 #  video_adapter_company  :string

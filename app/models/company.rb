@@ -8,5 +8,6 @@
 #  updated_at :datetime         not null
 #
 class Company < ApplicationRecord
-  validate :name, presence: true
+  validate :name, presence: true,
+                  uniqueness: true
 end
